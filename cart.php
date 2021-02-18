@@ -19,7 +19,7 @@
               <div class="cart-item-detail">
                 <p class="cart-item-title"><?php echo $product["name"]; ?></p>
                 <p><?php echo $_POST[$product["id"]]; ?> × <?php echo $product["price"]; ?></p>
-                 <!-- $_POSTには連想配列が入っている。index.phpのinputのnameをキーとしている。 -->
+                <!-- $_POSTには連想配列が入っている。index.phpのinputのnameをキーとしている。 -->
               </div>
             </div>
           </div>
