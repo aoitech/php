@@ -20,7 +20,7 @@
 
     public function getId() {
       return $this->id;
-      //privateで値の取得ができないため、getNameメソッドを定義
+      //privateで値の取得ができないため、getIdメソッドを定義
       // ここで値を取得している。privateでもクラス内では値の取得は可能。
       // 以下同様
     }

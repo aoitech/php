@@ -18,7 +18,7 @@
               <img class="cart-item-img" src="<?php echo $product["image"]; ?>">
               <div class="cart-item-detail">
                 <p class="cart-item-title"><?php echo $product["name"]; ?></p>
-                <p><?php echo $_POST[$product["id"]]; ?> × <?php echo $product["price"]; ?></p>
+                <p><?php echo $_POST[$product->getId()]; ?> × <?php echo $product->getPrice(); ?></p>
                  <!-- $_POSTには連想配列が入っている。index.phpのinputのnameをキーとしている。 -->
               </div>
             </div>
